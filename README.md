@@ -10,7 +10,9 @@
 | 2 | **Context Window** | [Context_Window_2026_05_06.md](Context_Window_2026_05_06.md) | 大模型的记忆容量，包含 Lost in the Middle 现象 |
 | 3 | **Hallucination** | [Hallucination_2026_05_05.md](Hallucination_2026_05_05.md) | AI 幻觉现象的本质与机制 |
 | 4 | **RAG** | [RAG_2026_05_07.md](RAG_2026_05_07.md) | 检索增强生成技术，解决知识过时与幻觉问题 |
-| 5 | **Prompt** | [prompt_2026_05_05.md](prompt_2026_05_05.md) | Prompt 工程的标准格式与最佳实践 |
+| 5 | **Embedding** | [Embedding_2026_05_09.md](Embedding_2026_05_09.md) | 文本向量化技术，RAG 语义检索的基础 |
+| 6 | **AI Agent** | [AI_Agent.md](AI_Agent.md) | 智能体，具备目标-计划-行动-观察循环能力 |
+| 7 | **Prompt** | [prompt_2026_05_05.md](prompt_2026_05_05.md) | Prompt 工程的标准格式与最佳实践 |
 
 ---
 
@@ -30,7 +32,13 @@
 │    ┌──────────────┐      ┌──────────────┐                  │
 │    │     RAG      │─────▶│ Hallucination│                  │
 │    │(检索增强生成) │(缓解)│   (幻觉)     │                  │
-│    └──────────────┘      └──────────────┘                  │
+│    └───────┬──────┘      └──────────────┘                  │
+│            │ (基于)                                      │
+│            ▼                                             │
+│    ┌──────────────┐                                      │
+│    │  Embedding   │                                      │
+│    │   (向量化)   │                                      │
+│    └──────────────┘                                      │
 │                               │                            │
 │                               ▼                            │
 │                      ┌──────────────┐                      │
@@ -50,3 +58,5 @@
 | 2026-05-05 | Token.md, Hallucination.md, Prompt.md | 初始创建 |
 | 2026-05-06 | Context_Window.md | 添加 Lost in the Middle 内容 |
 | 2026-05-07 | RAG.md | 添加检索增强生成技术 |
+| 2026-05-09 | Embedding.md | 添加文本向量化技术 |
+| 2026-05-10 | AI_Agent.md | 添加智能体概念，整合所有AI能力 |
