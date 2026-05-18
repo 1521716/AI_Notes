@@ -17,7 +17,10 @@
 | 9 | **GGUF** | [GGUF_2026_05_12.md](GGUF_2026_05_12.md) | 量化格式，让普通电脑也能跑大模型 |
 | 10 | **模型量化** | [模型量化_2026_05_13.md](模型量化_2026_05_13.md) | 把浮点数变成整数，用精度换取速度和内存 |
 | 11 | **llama.cpp** | [llama.cpp_2026_05_12.md](llama.cpp_2026_05_12.md) | C/C++实现的LLM推理框架，高效运行GGUF模型 |
-| 11 | **Prompt** | [prompt_2026_05_05.md](prompt_2026_05_05.md) | Prompt 工程的标准格式与最佳实践 |
+| 12 | **LangChain** | [LangChain_2026_05_18.md](LangChain_2026_05_18.md) | 把LLM与工具、数据、API"粘"在一起的开发框架 |
+| 13 | **Function Calling** | [Function_Calling_2026_05_18.md](Function_Calling_2026_05_18.md) | 把自然语言意图翻译成结构化程序调用 |
+| 14 | **MCP** | [MCP_2026_05_18.md](MCP_2026_05_18.md) | AI Agent的"USB接口协议"，标准化工具接入 |
+| 15 | **Prompt** | [prompt_2026_05_05.md](prompt_2026_05_05.md) | Prompt 工程的标准格式与最佳实践 |
 
 ---
 
