@@ -20,7 +20,10 @@
 | 12 | **LangChain** | [LangChain_2026_05_18.md](LangChain_2026_05_18.md) | 把LLM与工具、数据、API"粘"在一起的开发框架 |
 | 13 | **Function Calling** | [Function_Calling_2026_05_18.md](Function_Calling_2026_05_18.md) | 把自然语言意图翻译成结构化程序调用 |
 | 14 | **MCP** | [MCP_2026_05_18.md](MCP_2026_05_18.md) | AI Agent的"USB接口协议"，标准化工具接入 |
-| 15 | **Prompt** | [prompt_2026_05_05.md](prompt_2026_05_05.md) | Prompt 工程的标准格式与最佳实践 |
+| 15 | **Agent** | [Agent_2026_05_19.md](Agent_2026_05_19.md) | 拥有独立判断力的智能体，能动态决策编排任务 |
+| 16 | **Chain** | [Chain_2026_05_19.md](Chain_2026_05_19.md) | 固定流水线，写死的有向无环执行图 |
+| 17 | **Tool Calling** | [Tool_Calling_2026_05_19.md](Tool_Calling_2026_05_19.md) | 大模型读懂工具说明书并生成调用指令 |
+| 18 | **Prompt** | [prompt_2026_05_05.md](prompt_2026_05_05.md) | Prompt 工程的标准格式与最佳实践 |
 
 ---
 
