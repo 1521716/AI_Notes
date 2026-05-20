@@ -75,3 +75,4 @@
 | 2026-05-12 | GGUF.md, llama.cpp.md | 添加量化格式和推理框架，本地运行大模型全套方案 |
 | 2026-05-13 | 模型量化.md | 添加模型量化原理，对比量化、剪枝、蒸馏三种瘦身方法 |
 | 2026-05-18 | LangChain.md, Function_Calling.md, MCP.md | 添加AI Agent相关的框架和协议 |
+| 2026-05-19 | Agent.md, Chain.md, Tool_Calling.md | 添加智能体的两种工作模式和工具调用技术 |
