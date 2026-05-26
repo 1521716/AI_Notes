@@ -76,3 +76,4 @@
 | 2026-05-13 | 模型量化.md | 添加模型量化原理，对比量化、剪枝、蒸馏三种瘦身方法 |
 | 2026-05-18 | LangChain.md, Function_Calling.md, MCP.md | 添加AI Agent相关的框架和协议 |
 | 2026-05-19 | Agent.md, Chain.md, Tool_Calling.md | 添加智能体的两种工作模式和工具调用技术 |
+| 2026-05-25 | Learning_to_Rank.md, AI模型评估指标.md | 添加排序学习和模型评估指标 |
