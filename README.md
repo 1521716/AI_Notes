@@ -23,7 +23,11 @@
 | 15 | **Agent** | [Agent_2026_05_19.md](Agent_2026_05_19.md) | 拥有独立判断力的智能体，能动态决策编排任务 |
 | 16 | **Chain** | [Chain_2026_05_19.md](Chain_2026_05_19.md) | 固定流水线，写死的有向无环执行图 |
 | 17 | **Tool Calling** | [Tool_Calling_2026_05_19.md](Tool_Calling_2026_05_19.md) | 大模型读懂工具说明书并生成调用指令 |
-| 18 | **Prompt** | [prompt_2026_05_05.md](prompt_2026_05_05.md) | Prompt 工程的标准格式与最佳实践 |
+| 18 | **Learning to Rank** | [Learning_to_Rank_2026_05_25.md](Learning_to_Rank_2026_05_25.md) | 从用户行为数据中学会什么是好的排序 |
+| 19 | **AI模型评估指标** | [AI模型评估指标_2026_05_25.md](AI模型评估指标_2026_05_25.md) | 用混淆矩阵和四大KPI评判模型性能 |
+| 20 | **混淆矩阵** | [混淆矩阵_2026_05_26.md](混淆矩阵_2026_05_26.md) | 模型评估的"得分明细表"，所有指标的根源 |
+| 21 | **ROC/AUC** | [ROC_AUC_2026_05_26.md](ROC_AUC_2026_05_26.md) | 衡量模型排序能力，综合体检报告 |
+| 22 | **Prompt** | [prompt_2026_05_05.md](prompt_2026_05_05.md) | Prompt 工程的标准格式与最佳实践 |
 
 ---
 
@@ -77,3 +81,4 @@
 | 2026-05-18 | LangChain.md, Function_Calling.md, MCP.md | 添加AI Agent相关的框架和协议 |
 | 2026-05-19 | Agent.md, Chain.md, Tool_Calling.md | 添加智能体的两种工作模式和工具调用技术 |
 | 2026-05-25 | Learning_to_Rank.md, AI模型评估指标.md | 添加排序学习和模型评估指标 |
+| 2026-05-26 | 混淆矩阵.md, ROC_AUC.md | 添加模型评估的详细指标和曲线分析 |
