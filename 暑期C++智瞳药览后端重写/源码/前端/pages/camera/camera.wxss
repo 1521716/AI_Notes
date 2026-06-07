@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20rpx;
+}
+
+.camera-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60rpx;
+}
+
+.camera-icon {
+  font-size: 120rpx;
+  margin-bottom: 20rpx;
+}
+
+.camera-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+
+.camera-desc {
+  font-size: 24rpx;
+  color: #666;
+  text-align: center;
+  margin-bottom: 40rpx;
+}
+
+.capture-btn {
+  width: 80%;
+  height: 120rpx;
+  border-radius: 60rpx;
+  background-color: #0A1C3A;
+  color: white;
+  font-size: 32rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40rpx;
+}
+
+.btn-icon {
+  font-size: 40rpx;
+  margin-bottom: 10rpx;
+}
+
+.btn-text {
+  font-size: 28rpx;
+}
+
+.tips {
+  font-size: 20rpx;
+  color: #999;
+  text-align: center;
+  padding: 0 20rpx;
+}
+
+/* 按钮样式覆盖 */
+.capture-btn::after {
+  border: none;
+}

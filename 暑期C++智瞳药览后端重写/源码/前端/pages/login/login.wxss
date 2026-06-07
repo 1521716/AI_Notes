@@ -1,0 +1,110 @@
+.container {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+
+.login-card {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 24rpx;
+  padding: 60rpx 40rpx;
+  box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.avatar-btn {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0 auto 20rpx;
+  line-height: 1;
+  overflow: hidden;
+}
+
+.avatar {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  border: 2rpx solid #ddd;
+}
+
+.avatar-tip {
+  font-size: 26rpx;
+  color: #888;
+  margin-bottom: 48rpx;
+}
+
+.nickname-area {
+  margin-bottom: 60rpx;
+}
+
+.nickname-input {
+  width: 100%;
+  background-color: #f8f8f8;
+  border-radius: 12rpx;
+  height:88rpx;
+  line-height: 88rpx;
+  padding: 0rpx 30rpx;
+  font-size: 32rpx;
+  color: #333;
+  box-sizing: border-box;
+  border: 1rpx solid #e0e0e0;
+}
+
+.login-btn {
+  width: 100%;
+  background-color: #07c160;
+  border-radius: 12rpx;
+  color: white;
+  font-size: 36rpx;
+  font-weight: 500;
+  padding: 24rpx 0;
+  border: none;
+  margin-bottom: 20rpx;
+}
+
+.cancel-btn {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 12rpx;
+  color: #666;
+  font-size: 36rpx;
+  font-weight: 500;
+  padding: 24rpx 0;
+  border: none;
+  margin-bottom: 20rpx;
+}
+
+.protocol-area {
+  margin-top: 40rpx;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 30rpx;
+}
+
+.protocol-checkbox {
+  transform: scale(0.7);
+  margin-right: 10rpx;
+}
+
+.protocol-text {
+  font-size: 24rpx;
+  color: #666;
+  line-height: 1.6;
+  flex-wrap: wrap;
+}
+
+.protocol-link {
+  color: #07c160;
+}

@@ -1,0 +1,29 @@
+<view class="container">
+  <view class="custom-nav">
+    <text class="nav-title">智瞳药览</text>
+  </view>
+
+  <view class="content">
+    <button class="login-btn" bindtap="goToLogin" wx:if="{{!hasUserInfo}}">登录</button>
+    <view class="user-info" wx:else>
+      <image class="user-avatar" src="{{userInfo.avatarUrl}}" mode="aspectFill" />
+      <text class="user-nickname">{{userInfo.nickname}}</text>
+    </view>
+
+    <view class="welcome-box">
+      <text class="welcome-text">欢迎使用，请选择操作</text>
+    </view>
+
+    <button class="big-btn orange-btn" bindtap="goToCamera">
+      <view class="btn-icon">📷</view>
+      <view class="btn-label">拍照识别</view>
+    </button>
+
+    <button class="big-btn blue-btn" bindtap="goToHistory">
+      <view class="btn-icon">📋</view>
+      <view class="btn-label">历史查询</view>
+    </button>
+
+    <view class="footer-note">点击按钮，开始使用</view>
+  </view>
+</view>

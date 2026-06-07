@@ -1,0 +1,79 @@
+<view class="container">
+  <view class="title">隐私政策</view>
+  <view class="content">
+    <view class="section">
+      <view class="section-title">引言</view>
+      <text class="section-text">
+        智瞳药览（以下简称"我们"）非常重视用户的隐私保护。本隐私政策将帮助您了解我们在您使用小程序服务时如何收集、使用、存储和保护您的个人信息。请您仔细阅读本政策，一旦您开始使用我们的服务，即表示您已同意本隐私政策的全部内容。
+      </text>
+    </view>
+
+    <view class="section">
+      <view class="section-title">一、信息收集</view>
+      <text class="section-text">
+        1. 账号信息：当您注册账号时，我们会收集您的微信头像和昵称。
+        2. 使用记录：我们会收集您使用服务的历史记录，以便为您提供更好的服务体验。
+        3. 设备信息：我们可能会收集您的设备型号、操作系统版本等技术信息，用于优化服务。
+      </text>
+    </view>
+
+    <view class="section">
+      <view class="section-title">二、信息使用</view>
+      <text class="section-text">
+        1. 我们使用您的信息来提供、维护和改进我们的服务。
+        2. 我们使用您的历史记录为您提供个性化的用药查询服务。
+        3. 我们不会将您的个人信息用于本隐私政策未载明的其他用途。
+      </text>
+    </view>
+
+    <view class="section">
+      <view class="section-title">三、信息共享</view>
+      <text class="section-text">
+        1. 我们不会向第三方出售您的个人信息。
+        2. 在以下情况下，我们可能会共享您的信息：
+           - 获得您的明确同意；
+           - 根据法律法规的要求；
+           - 为保护我们的合法权益。
+      </text>
+    </view>
+
+    <view class="section">
+      <view class="section-title">四、信息存储与保护</view>
+      <text class="section-text">
+        1. 我们将您的信息存储在安全的服务器上，并采取合理的安全措施保护您的信息。
+        2. 我们使用加密技术保护数据传输安全。
+        3. 我们会定期审查信息收集、存储和处理实践，以防止未经授权的访问。
+      </text>
+    </view>
+
+    <view class="section">
+      <view class="section-title">五、您的权利</view>
+      <text class="section-text">
+        1. 您有权访问、更正您的个人信息。
+        2. 您有权删除您的账号及相关信息。
+        3. 您有权撤回之前授予的同意。
+      </text>
+    </view>
+
+    <view class="section">
+      <view class="section-title">六、未成年人保护</view>
+      <text class="section-text">
+        我们非常重视对未成年人个人信息的保护。如果您是未满18周岁的未成年人，在使用我们的服务前，应事先取得您监护人的同意。
+      </text>
+    </view>
+
+    <view class="section">
+      <view class="section-title">七、政策更新</view>
+      <text class="section-text">
+        我们可能会不时更新本隐私政策。更新后的政策将在小程序内公布，重大变更我们会通过适当方式通知您。
+      </text>
+    </view>
+
+    <view class="section">
+      <view class="section-title">八、联系我们</view>
+      <text class="section-text">
+        如果您对本隐私政策有任何疑问或建议，请通过小程序内的反馈功能与我们联系。
+      </text>
+    </view>
+  </view>
+</view>

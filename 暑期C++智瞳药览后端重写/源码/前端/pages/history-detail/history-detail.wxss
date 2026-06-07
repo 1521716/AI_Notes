@@ -1,0 +1,86 @@
+.container {
+  min-height: 100vh;
+  background-color: #0A1C3A;
+  display: flex;
+  flex-direction: column;
+  padding: 60rpx;
+}
+
+.medicine-header {
+  background-color: rgba(255,255,255,0.15);
+  border-radius: 48rpx;
+  padding: 40rpx;
+  margin-bottom: 40rpx;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.medicine-title {
+  font-size: 48rpx;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20rpx;
+}
+
+.medicine-subtitle {
+  font-size: 32rpx;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.info-scroll {
+  flex: 1;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 48rpx;
+  padding: 40rpx;
+  margin-bottom: 40rpx;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.info-section {
+  margin-bottom: 40rpx;
+  padding-bottom: 40rpx;
+  border-bottom: 1rpx solid rgba(255, 255, 255, 0.1);
+}
+
+.info-section:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.section-label {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #FFA500;
+  margin-bottom: 16rpx;
+}
+
+.section-content {
+  font-size: 32rpx;
+  color: white;
+  line-height: 1.8;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.no-info {
+  font-size: 32rpx;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  padding: 40rpx;
+}
+
+.back-btn {
+  width: 80%;
+  background-color: #FFA500;
+  border-radius: 60rpx;
+  color: white;
+  font-size: 40rpx;
+  font-weight: bold;
+  padding: 28rpx 0;
+  border: none;
+  align-self: center;
+  margin-bottom: 40rpx;
+}

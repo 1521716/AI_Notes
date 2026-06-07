@@ -1,0 +1,48 @@
+<view class="result-container">
+  <view class="custom-nav">
+    <text class="nav-title">智瞳药览</text>
+  </view>
+
+  <view class="top-content">
+    <view class="top-desc">
+      <view class="desc-text" wx:if="{{isPlaying && !isPaused}}">🔊 正在朗读中...</view>
+      <view class="desc-text" wx:elif="{{isPlaying && isPaused}}">⏸️ 已暂停</view>
+      <view class="desc-text" wx:else>请选择语速开始朗读</view>
+    </view>
+
+    <view class="speed-row">
+      <button class="speed-btn slow" bindtap="speakSlow">慢语速</button>
+      <button class="speed-btn medium" bindtap="speakMedium">中语速</button>
+      <button class="speed-btn fast" bindtap="speakFast">快语速</button>
+    </view>
+
+    <view class="bottom-container">
+      <view class="bottom-left-control">
+        <button wx:if="{{isPlaying && !isPaused}}" class="bottom-control-btn pause" bindtap="pauseSpeech">⏸️</button>
+        <button wx:if="{{isPlaying && isPaused}}" class="bottom-control-btn resume" bindtap="resumeSpeech">▶️</button>
+        <button wx:if="{{!isPlaying}}" class="bottom-control-btn disabled">⏸️</button>
+      </view>
+
+      <button class="action-btn" bindtap="goBack">再次拍照</button>
+
+      <view class="bottom-right-control">
+        <button wx:if="{{isPlaying}}" class="bottom-control-btn stop" bindtap="stopSpeech">⏹️</button>
+        <button wx:else class="bottom-control-btn disabled">⏹️</button>
+      </view>
+    </view>
+  </view>
+
+  <scroll-view scroll-y class="text-scroll">
+    <view class="result-text">{{resultText}}</view>
+  </scroll-view>
+
+  <view class="hint-text">长按下方按钮语音答疑</view>
+
+  <view class="mic-container">
+    <button class="mic-btn" bindlongpress="checkPermissionAndStartRecord" bindtouchend="handleTouchEnd" bindtouchcancel="handleTouchCancel">
+      <view class="mic-icon">🎤</view>
+    </button>
+  </view>
+
+  <view class="bottom-spacer"></view>
+</view>

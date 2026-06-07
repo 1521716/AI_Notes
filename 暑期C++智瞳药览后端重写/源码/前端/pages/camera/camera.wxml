@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="camera-box">
+    <view class="camera-icon">📷</view>
+    <text class="camera-title">拍照识别药品</text>
+    <text class="camera-desc">请对准药品包装，点击下方按钮拍照</text>
+  </view>
+  
+  <button class="capture-btn" bindtap="uploadAndAnalyze">
+    <view class="btn-icon">📷</view>
+    <view class="btn-text">点击拍照</view>
+  </button>
+  
+  <view class="tips">
+    <text>提示：请确保药品包装清晰可见，光线充足</text>
+  </view>
+</view>

@@ -1,0 +1,120 @@
+.container {
+  min-height: 100vh;
+  background-color: #0A1C3A;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-nav {
+  width: 100%;
+  height: 132rpx;
+  padding-top: 44rpx;
+  background-color: #0A1C3A;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 10rpx;
+}
+
+.nav-title {
+  font-size: 55rpx;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60rpx 40rpx;
+  box-sizing: border-box;
+}
+
+.login-btn {
+  background-color: transparent;
+  border: 2rpx solid #FFA500;
+  border-radius: 40rpx;
+  padding: 16rpx 40rpx;
+  font-size: 32rpx;
+  color: #FFA500;
+  margin-bottom: 40rpx;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40rpx;
+}
+
+.user-avatar {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  margin-right: 12rpx;
+}
+
+.user-nickname {
+  font-size: 32rpx;
+  color: #FFFFFF;
+}
+
+.welcome-box {
+  margin-bottom: 80rpx;
+  text-align: center;
+}
+
+.welcome-text {
+  font-size: 52rpx;
+  font-weight: bold;
+  color: #FFFFFF;
+  letter-spacing: 2rpx;
+  text-shadow: 0 2rpx 4rpx rgba(0,0,0,0.3);
+}
+
+.big-btn {
+  width: 100%;
+  border-radius: 48rpx;
+  padding: 60rpx 0;
+  margin-bottom: 60rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-shadow: 0 12rpx 24rpx rgba(0,0,0,0.3);
+  transition: all 0.1s ease;
+}
+
+.big-btn:active {
+  transform: scale(0.98);
+  opacity: 0.9;
+}
+
+.orange-btn {
+  background-color: #FFA500;
+}
+
+.blue-btn {
+  background-color: #1E88E5;
+}
+
+.btn-icon {
+  font-size: 100rpx;
+  color: white;
+  margin-bottom: 20rpx;
+}
+
+.btn-label {
+  font-size: 48rpx;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-note {
+  font-size: 35rpx;
+  color: #DDDDDD;
+  text-align: center;
+  margin-top: 40rpx;
+}

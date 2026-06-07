@@ -1,0 +1,61 @@
+<view class="container">
+  <view class="title">用户服务协议</view>
+  <view class="content">
+    <view class="section">
+      <view class="section-title">一、服务条款的确认及接受</view>
+      <text class="section-text">
+        欢迎您使用智瞳药览小程序服务！本协议是您与智瞳药览之间关于使用本服务所订立的协议。请您仔细阅读本协议，您点击"同意"按钮或使用本服务，即视为您已阅读并同意本协议的所有条款。
+      </text>
+    </view>
+
+    <view class="section">
+      <view class="section-title">二、服务内容</view>
+      <text class="section-text">
+        1. 智瞳药览为用户提供药品信息识别、用药指导查询等服务。
+        2. 用户可以通过拍照或手动输入的方式获取药品相关信息。
+        3. 我们将根据技术发展和用户需求不断优化和扩展服务内容。
+      </text>
+    </view>
+
+    <view class="section">
+      <view class="section-title">三、用户账号</view>
+      <text class="section-text">
+        1. 您在使用本服务前需要注册账号，您应当提供真实、准确的个人信息。
+        2. 您有责任妥善保管账号信息，因您保管不善导致的损失由您自行承担。
+        3. 您不得将账号转让、出借或以其他方式提供给第三方使用。
+      </text>
+    </view>
+
+    <view class="section">
+      <view class="section-title">四、用户行为规范</view>
+      <text class="section-text">
+        1. 您在使用本服务时应遵守法律法规，不得从事违法违规活动。
+        2. 您不得干扰本服务的正常运行，不得攻击、侵入我们的服务器。
+        3. 您不得利用本服务从事侵犯他人合法权益的活动。
+      </text>
+    </view>
+
+    <view class="section">
+      <view class="section-title">五、免责声明</view>
+      <text class="section-text">
+        1. 本服务提供的药品信息仅供参考，不能替代专业医疗建议。
+        2. 用药前请咨询医生或药师，按照医嘱使用药物。
+        3. 因用户自身原因使用本服务造成的损失，我们不承担责任。
+      </text>
+    </view>
+
+    <view class="section">
+      <view class="section-title">六、协议的修改</view>
+      <text class="section-text">
+        我们有权根据需要不时地修改本协议条款。修改后的协议将在小程序内公布，您继续使用本服务即视为接受修改后的协议。
+      </text>
+    </view>
+
+    <view class="section">
+      <view class="section-title">七、其他</view>
+      <text class="section-text">
+        本协议的订立、执行和解释及争议的解决均适用中华人民共和国法律。如双方就本协议内容或其执行发生任何争议，双方应尽量友好协商解决；协商不成时，任何一方均可向我们所在地有管辖权的人民法院提起诉讼。
+      </text>
+    </view>
+  </view>
+</view>

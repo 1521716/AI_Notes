@@ -1,0 +1,42 @@
+<view class="container">
+  <view class="medicine-header">
+    <view class="medicine-title">{{medicine.name}}</view>
+    <view class="medicine-subtitle">{{medicine.brand}}</view>
+  </view>
+
+  <scroll-view scroll-y class="info-scroll">
+    <view class="info-section" wx:if="{{info.indication}}">
+      <view class="section-label">适应症</view>
+      <view class="section-content">{{info.indication}}</view>
+    </view>
+
+    <view class="info-section" wx:if="{{info.usage}}">
+      <view class="section-label">用法用量</view>
+      <view class="section-content">{{info.usage}}</view>
+    </view>
+
+    <view class="info-section" wx:if="{{info.contraindication}}">
+      <view class="section-label">核心禁忌</view>
+      <view class="section-content">{{info.contraindication}}</view>
+    </view>
+
+    <view class="info-section" wx:if="{{info.adverseReaction}}">
+      <view class="section-label">不良反应</view>
+      <view class="section-content">{{info.adverseReaction}}</view>
+    </view>
+
+    <view class="info-section" wx:if="{{info.validity}}">
+      <view class="section-label">有效期</view>
+      <view class="section-content">{{info.validity}}</view>
+    </view>
+
+    <view class="info-section" wx:if="{{oralSummary && !hasInfo}}">
+      <view class="section-label">药品说明</view>
+      <view class="section-content">{{oralSummary}}</view>
+    </view>
+
+    <view class="no-info" wx:if="{{!hasInfo && !oralSummary}}">暂无详细信息</view>
+  </scroll-view>
+
+  <button class="back-btn" bindtap="goBack">返回</button>
+</view>

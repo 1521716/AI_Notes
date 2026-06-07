@@ -1,0 +1,25 @@
+<view class="container">
+  <form bindsubmit="doLogin" class="login-card">
+    <button class="avatar-btn" open-type="chooseAvatar" bindchooseavatar="onChooseAvatar">
+      <image class="avatar" src="{{avatarUrl}}" mode="aspectFill"></image>
+    </button>
+    <view wx:if="{{showAvatarTip}}" class="avatar-tip">点击头像选择</view>
+
+    <view class="nickname-area">
+      <input name="nickname" type="nickname" class="nickname-input" placeholder="请输入昵称" value="{{nickname}}" />
+    </view>
+
+    <button class="login-btn" form-type="submit">登录</button>
+    <button class="cancel-btn" bindtap="goBack">取消登录</button>
+  </form>
+
+  <view class="protocol-area">
+    <checkbox class="protocol-checkbox" value="1" checked="{{isAgree}}" bindtap="toggleAgree" />
+    <view class="protocol-text">
+      <text>我已阅读并同意</text>
+      <text class="protocol-link" bindtap="openUserProtocol">《用户服务协议》</text>
+      <text>和</text>
+      <text class="protocol-link" bindtap="openPrivacyPolicy">《隐私政策》</text>
+    </view>
+  </view>
+</view>

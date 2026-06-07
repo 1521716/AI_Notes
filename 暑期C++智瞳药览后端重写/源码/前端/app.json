@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/login/login",
+    "pages/camera/camera",
+    "pages/history/history",
+    "pages/history-detail/history-detail",
+    "pages/result/result",
+    "pages/protocol/user-service",
+    "pages/protocol/privacy-policy"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#0A1C3A",
+    "navigationBarTitleText": "智瞳药览·明眼读药小管家",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#0A1C3A",
+    "backgroundTextStyle": "light"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

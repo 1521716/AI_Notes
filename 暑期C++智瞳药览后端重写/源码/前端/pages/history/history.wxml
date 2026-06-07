@@ -1,0 +1,21 @@
+<view class="container">
+  <!-- 无历史记录时的提示 -->
+  <view wx:if="{{!hasHistory}}" class="empty-history">
+    <view class="empty-icon">📜</view>
+    <view class="empty-text">暂无历史记录</view>
+  </view>
+
+  <!-- 历史记录列表 -->
+  <scroll-view wx:else scroll-y="true" class="history-list">
+    <view wx:for="{{historyList}}" wx:key="{{item.id}}" class="history-item" bindtap="goToHistoryDetail" data-index="{{index}}">
+      <view class="history-item-header">
+        <view class="medicine-name">{{item.medicine.name}}</view>
+        <view class="history-time">{{item.timestamp.substring(0, 19).replace('T', ' ')}}</view>
+      </view>
+    </view>
+    <view class="bottom-tip">到底了</view>
+  </scroll-view>
+
+  <!-- 返回按钮 -->
+  <button class="back-btn" bindtap="goBack">返回主页</button>
+</view>

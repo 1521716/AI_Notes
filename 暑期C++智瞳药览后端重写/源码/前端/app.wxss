@@ -1,0 +1,13 @@
+/* 全局老年友好样式：大字号，高对比度，圆角 */
+page {
+  background-color: #0A1C3A;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* 所有按钮点击态 */
+button {
+  outline: none;
+}
+button::after {
+  border: none;
+}

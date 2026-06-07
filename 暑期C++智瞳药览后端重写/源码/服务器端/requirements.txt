@@ -1,0 +1,9 @@
+flask
+flask-cors
+paddlepaddle<3
+paddleocr
+opencv-python-headless
+numpy
+openai
+python-dotenv
+gunicorn
