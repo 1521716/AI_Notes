@@ -1,0 +1,9 @@
+2026_06_08:
+pwd
+ls
+cd
+mkdir
+touch
+rm
+cp
+mv
