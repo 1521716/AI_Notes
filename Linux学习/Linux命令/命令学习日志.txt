@@ -7,3 +7,13 @@ touch
 rm
 cp
 mv
+2026_06_09:
+cat
+head
+tail
+less
+more
+echo
+>
+>>
+|
