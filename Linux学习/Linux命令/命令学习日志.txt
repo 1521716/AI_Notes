@@ -23,3 +23,11 @@ find
 wc
 sort
 uniq
+2026_06_11:
+ps
+top
+kill
+df
+du
+chmod
+clear
